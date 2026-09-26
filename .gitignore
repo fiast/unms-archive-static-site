@@ -1,0 +1,20 @@
+# Результаты работы скриптов (данные, HTML-сайты, деплой-бандлы, тар-архивы)
+output/
+
+# Локальная конфигурация с токенами и адресами
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.mypy_cache/
+.pytest_cache/
+
+# Прочее
+.DS_Store
+*.log

@@ -1,0 +1,5 @@
+# Генерация markdown -> HTML
+Markdown>=3.5
+
+# Загрузка переменных окружения из .env (config.py работает и без него)
+python-dotenv>=1.0
